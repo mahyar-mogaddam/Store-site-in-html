@@ -1,0 +1,105 @@
+html{
+    height: 100%;
+}
+body{
+    font-family: tahoma;
+    height: 94%; 
+}
+#rightpanell{
+    width: 15%;
+    float: right;
+    border-left: 1px solid black;
+    height: 100%;
+    padding: 7px;
+    margin: 7px;
+}
+#mainpanell{
+    width: 82%;
+    float: left ;
+}
+a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 7px;
+    font-size: 14px;
+    color: red;
+    margin-bottom: 10px;
+}
+.menu{
+    color: black;
+    display: block;
+    border-radius: 40px;
+}
+h1{
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 10px auto 10px auto;
+    padding: 3px;
+    text-align: center;
+    background-color: red;
+    width: 90%;
+    color: black;
+}
+a:hover{
+    background-color: red;
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+}
+img{
+    width: 100%;
+
+}
+table{
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    margin: 20px auto 10px auto;
+}
+th,td{
+    margin: 20px auto 10px auto;
+    padding:5px;
+    border-bottom: 1px solid black;
+}
+#head{
+    border-bottom: 1px solid black;
+    padding:5px;
+    margin: 5px;
+    width: 98%;
+    text-align: center;
+}
+.btn{
+    padding: 5px;   
+}
+.btnedit:hover{
+    color: #fff;
+    background: rgb(0, 255, 0);
+}
+.btndel:hover{
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+}
+.link{
+    display: block;
+    width:85%;
+    margin-right: 77px;
+    margin-top: 30px;
+    
+}
+.end{
+    text-decoration: none;
+    color: #000;
+    margin-right: 70px;
+    margin-top: 20px;
+    font-weight: bold;
+    border-radius: 40px;
+}
+.btnend{
+    background-color: #fff;
+    border-color: #fff;
+    border-bottom: #fff;
+    border-right: #fff;
+    border-bottom: #fff;
+}
